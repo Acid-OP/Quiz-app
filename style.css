@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3e5f5; /* Very light violet */
+  }
+  
+  #quiz {
+    background-color: #ffffff; /* White background for the quiz container */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 500px;
+    width: 700px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #question {
+    background-color: #ffffff; /* White background for the question block */
+    color: #8e24aa; /* Violet text color */
+    margin-bottom: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  #options {
+    background-color: #ffffff; /* White background for options block */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  button {
+    height: 80px;
+    width: 650px;
+    background-color: #8e24aa; /* Solid violet color */
+    color: #ffffff; /* White text */
+    border: none;
+    border-radius: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+  }
+  
+  #result {
+    display: none; /* Initially hidden */
+    text-align: center;
+    font-size: 1.8em;
+    font-family: 'Arial', sans-serif;
+    color: #8e24aa; /* Violet color for result text */
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #ffffff; /* White background for the result section */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 700px;
+  }
+  
